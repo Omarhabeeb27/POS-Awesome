@@ -7,7 +7,7 @@
       ></v-app-bar-nav-icon>
       <v-img
         src="/assets/posawesome/js/posapp/components/pos/robot.png"
-        alt="Robot POS"
+        alt="POS Awesome"
         max-width="32"
         class="mr-2"
         color="primary"
@@ -17,8 +17,8 @@
         style="cursor: pointer"
         class="text-uppercase primary--text"
       >
-        <span class="font-weight-light">pos</span>
-        <span>awesome</span>
+        <span class="font-weight-light">Robot</span>
+        <span>POS</span>
       </v-toolbar-title>
 
       <v-spacer></v-spacer>
