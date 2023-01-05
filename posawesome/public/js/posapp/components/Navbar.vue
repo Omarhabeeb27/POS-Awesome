@@ -6,7 +6,7 @@
         class="grey--text"
       ></v-app-bar-nav-icon>
       <v-img
-        src="/assets/posawesome/js/posapp/components/pos/robot.png"
+        src= "company_img"
         alt="POS Awesome"
         max-width="32"
         class="mr-2"
@@ -22,9 +22,9 @@
       </v-toolbar-title>
 
       <v-spacer></v-spacer>
-      <v-btn style="cursor: unset" text color="primary">
+      <v-text style="cursor: unset" text color="primary">
         <span right>{{ pos_profile.name }}</span>
-      </v-btn>
+      </v-text>
       <div class="text-center">
         <v-menu offset-y>
           <template v-slot:activator="{ on, attrs }">
