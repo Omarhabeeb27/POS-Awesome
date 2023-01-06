@@ -17,8 +17,8 @@
         style="cursor: pointer"
         class="text-uppercase primary--text"
       >
-        <span class="font-weight-light">Robot</span>
-        <span>POS</span>
+        <span color ="primary">Appliances</span>
+        <span color ="black">NEXT</span>
       </v-toolbar-title>
 
       <v-spacer></v-spacer>
@@ -175,7 +175,7 @@ export default {
     },
     go_about() {
       const win = window.open(
-        'https://github.com/yrestom/POS-Awesome',
+        'https://github.com/Mohseenhabib/POS-Awesome',
         '_blank'
       );
       win.focus();
