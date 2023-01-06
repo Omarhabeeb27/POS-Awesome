@@ -6,7 +6,7 @@
         class="grey--text"
       ></v-app-bar-nav-icon>
       <v-img
-        src="/assets/posawesome/js/posapp//pos/robot.png"
+        src="/assets/posawesome/js/posapp/pos/robot.png"
         alt="POS Awesome"
         max-width="32"
         class="mr-2"
