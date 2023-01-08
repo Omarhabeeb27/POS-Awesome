@@ -692,9 +692,11 @@
             <v-col cols="6" class="pa-1">
               <v-btn
                 block
+                elevation="8"
+                rounded
                 class="pa-0"
                 :class="{ 'disable-events': !pos_profile.posa_allow_return }"
-                color="secondary"
+                color="primary"
                 dark
                 @click="open_returns"
                 >{{ __('Return') }}</v-btn
@@ -703,6 +705,7 @@
             <v-col cols="6" class="pa-1">
               <v-btn
                 block
+                elevation="8"
                 class="pa-0"
                 color="error"
                 dark
@@ -723,7 +726,7 @@
             <v-col class="pa-1">
               <v-btn
                 block
-                class="pa-0"
+                class="button3-button"
                 color="success"
                 @click="show_payment"
                 dark
@@ -2592,4 +2595,37 @@ export default {
 .disable-events {
   pointer-events: none;
 }
+.button3-container {
+  min-height: 100vh;
+}
+.button3-dummy-container {
+  width: 100%;
+  height: 900px;
+}
+.button3-button {
+  width: 556px;
+  height: auto;
+  display: flex;
+  padding: 14px;
+  position: relative;
+  box-shadow: 0px 8px 24px 0px rgba(171, 202, 255, 0.5) ;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(78, 101, 255, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 20px;
+  justify-content: center;
+  background-color: rgba(7, 139, 255, 1);
+}
+.button3-text {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  align-self: auto;
+  text-align: left;
+  line-height: 139.9999976158142%;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
 </style>
