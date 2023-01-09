@@ -1,7 +1,8 @@
 <template>
   <div>
-    <v-dialog v-model="cancel_dialog" max-width="330">
+    <v-dialog v-model="cancel_dialog" max-width="180">
       <v-card>
+            elevation="9"
         <v-card-title class="text-h5">
           <span class="headline primary--text">{{
             __('Cancel Current Invoice ?')
@@ -244,6 +245,7 @@
                       :disabled="!!item.posa_is_offer || !!item.posa_is_replace"
                     ></v-text-field>
                   </v-col>
+                  <!--
                   <v-col cols="4">
                     <v-select
                       dense
@@ -264,6 +266,8 @@
                     >
                     </v-select>
                   </v-col>
+                  -->
+
                   <v-col cols="4">
                     <v-text-field
                       dense
@@ -599,9 +603,10 @@
                 :label="frappe._('Total Qty')"
                 outlined
                 dense
+                rounded
                 readonly
                 hide-details
-                color="accent"
+                color="primary"
               ></v-text-field>
             </v-col>
             <v-col
@@ -616,7 +621,7 @@
                 outlined
                 dense
                 hide-details
-                color="warning"
+                color="primary"
                 type="number"
                 :prefix="pos_profile.currency"
                 :disabled="
@@ -637,8 +642,9 @@
                 :label="frappe._('Additional Discount %')"
                 ref="percentage_discount"
                 outlined
+                rounded
                 dense
-                color="warning"
+                color="primary"
                 hide-details
                 type="number"
                 :disabled="
@@ -656,7 +662,8 @@
                 :label="frappe._('Items Discounts')"
                 outlined
                 dense
-                color="warning"
+                rounded
+                color="primary"
                 readonly
                 hide-details
                 :prefix="pos_profile.currency"
@@ -682,6 +689,8 @@
             <v-col cols="6" class="pa-1">
               <v-btn
                 block
+                elevation="8"
+                rounded
                 class="pa-0"
                 color="warning"
                 dark
@@ -706,6 +715,7 @@
               <v-btn
                 block
                 elevation="8"
+                rounded
                 class="pa-0"
                 color="error"
                 dark
@@ -716,6 +726,8 @@
             <v-col cols="6" class="pa-1">
               <v-btn
                 block
+                elevation="8"
+                rounded
                 class="pa-0"
                 color="accent"
                 dark
@@ -726,6 +738,8 @@
             <v-col class="pa-1">
               <v-btn
                 block
+                elevation="8"
+                rounded
                 class="button3-button"
                 color="success"
                 @click="show_payment"
@@ -740,6 +754,8 @@
             >
               <v-btn
                 block
+                elevation="8"
+                rounded
                 class="pa-0"
                 color="primary"
                 @click="print_draft_invoice"
@@ -2603,7 +2619,7 @@ export default {
   height: 900px;
 }
 .button3-button {
-  width: 556px;
+  width: auto;
   height: auto;
   display: flex;
   padding: 14px;
@@ -2618,14 +2634,4 @@ export default {
   justify-content: center;
   background-color: rgba(7, 139, 255, 1);
 }
-.button3-text {
-  color: rgba(255, 255, 255, 1);
-  height: auto;
-  align-self: auto;
-  text-align: left;
-  line-height: 139.9999976158142%;
-  margin-right: 0;
-  margin-bottom: 0;
-}
-
 </style>
