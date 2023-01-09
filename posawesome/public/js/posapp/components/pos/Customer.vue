@@ -2,6 +2,7 @@
   <div>
     <v-autocomplete
       dense
+      rounded
       clearable
       auto-select-first
       outlined
