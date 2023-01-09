@@ -11,6 +11,7 @@
               <v-col cols="12">
                 <v-text-field
                   dense
+                  rounded
                   color="primary"
                   :label="frappe._('Customer Name')"
                   background-color="white"
@@ -22,6 +23,7 @@
               <v-col cols="6">
                 <v-text-field
                   dense
+                  rounded
                   color="primary"
                   :label="frappe._('Email')"
                   background-color="white"
@@ -33,6 +35,7 @@
               <v-col cols="6">
                 <v-text-field
                   dense
+                  rounded
                   color="primary"
                   :label="frappe._('Mobile No')"
                   background-color="white"
@@ -55,6 +58,7 @@
                   v-model="customer_info.loyalty_points"
                   :label="frappe._('Loyalty Points')"
                   dense
+                  rounded
                   readonly
                   hide-details
                 ></v-text-field>

@@ -12,6 +12,7 @@
           <v-col cols="4">
             <v-text-field
               dense
+              rounded
               outlined
               color="primary"
               :label="frappe._('Coupon')"

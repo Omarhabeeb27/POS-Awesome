@@ -13,6 +13,7 @@
               <v-col cols="12">
                 <v-text-field
                   dense
+                  rounded
                   color="primary"
                   :label="frappe._('Address Name')"
                   background-color="white"
@@ -23,6 +24,7 @@
               <v-col cols="12">
                 <v-text-field
                   dense
+                  rounded
                   color="primary"
                   :label="frappe._('Address Line 1')"
                   background-color="white"
@@ -33,6 +35,7 @@
               <v-col cols="12">
                 <v-text-field
                   dense
+                  rounded
                   color="primary"
                   :label="frappe._('Address Line 2')"
                   background-color="white"
@@ -44,6 +47,7 @@
                 <v-text-field
                   label="City"
                   dense
+                  rounded
                   color="primary"
                   background-color="white"
                   hide-details
@@ -54,6 +58,7 @@
                 <v-text-field
                   label="State"
                   dense
+                  rounded
                   background-color="white"
                   hide-details
                   v-model="address.state"
