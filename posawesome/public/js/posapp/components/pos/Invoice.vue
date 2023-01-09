@@ -2,7 +2,6 @@
   <div>
     <v-dialog v-model="cancel_dialog" max-width="180">
       <v-card>
-            elevation="9"
         <v-card-title class="text-h5">
           <span class="headline primary--text">{{
             __('Cancel Current Invoice ?')
@@ -22,6 +21,7 @@
     <v-card
       style="max-height: 70vh; height: 70vh"
       class="cards my-0 py-0 grey lighten-5"
+      elevation="6"
     >
       <v-row align="center" class="items px-2 py-1">
         <v-col
@@ -391,6 +391,7 @@
                       disabled
                     ></v-text-field>
                   </v-col>
+                  <!--
                   <v-col cols="4">
                     <v-text-field
                       dense
@@ -403,6 +404,7 @@
                       disabled
                     ></v-text-field>
                   </v-col>
+                -->
                   <v-col align="center" cols="4" v-if="item.posa_offer_applied">
                     <v-checkbox
                       dense
@@ -596,8 +598,8 @@
     <v-card class="cards mb-0 mt-3 py-0 grey lighten-5">
       <v-row no-gutters>
         <v-col cols="7">
-          <v-row no-gutters class="pa-1 pt-9 pr-1">
-            <v-col cols="6" class="pa-1">
+          <v-row no-gutters class="pa-1 pt-3 pr-1">
+            <v-col cols="6" class="pa-1 pb-3">
               <v-text-field
                 :value="formtFloat(total_qty)"
                 :label="frappe._('Total Qty')"
@@ -620,6 +622,7 @@
                 ref="discount"
                 outlined
                 dense
+                rounded
                 hide-details
                 color="primary"
                 type="number"
@@ -676,9 +679,10 @@
                 :label="frappe._('Total')"
                 outlined
                 dense
+                rounded
                 readonly
                 hide-details
-                color="success"
+                color="primary"
                 :prefix="pos_profile.currency"
               ></v-text-field>
             </v-col>
@@ -692,7 +696,7 @@
                 elevation="8"
                 rounded
                 class="pa-0"
-                color="warning"
+                color="primary"
                 dark
                 @click="get_draft_invoices"
                 >{{ __('Held') }}</v-btn
@@ -815,7 +819,7 @@ export default {
           value: 'item_name',
         },
         { text: __('QTY'), value: 'qty', align: 'center' },
-        { text: __('UOM'), value: 'uom', align: 'center' },
+        
         { text: __('Rate'), value: 'rate', align: 'center' },
         { text: __('Amount'), value: 'amount', align: 'center' },
         { text: __('is Offer'), value: 'posa_is_offer', align: 'center' },

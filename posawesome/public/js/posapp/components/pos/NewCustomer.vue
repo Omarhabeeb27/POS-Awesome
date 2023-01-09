@@ -1,7 +1,8 @@
 <template>
   <v-row justify="center">
     <v-dialog v-model="customerDialog" max-width="600px">
-      <v-card>
+      <v-card shaped>
+        
         <v-card-title>
           <span class="headline primary--text">{{ __('New Customer') }}</span>
         </v-card-title>
@@ -11,6 +12,7 @@
               <v-col cols="12">
                 <v-text-field
                   dense
+                  rounded
                   color="primary"
                   :label="frappe._('Customer Name')"
                   background-color="white"
