@@ -16,6 +16,7 @@
           <v-col cols="7">
             <v-text-field
               outlined
+              rounded
               color="primary"
               :label="frappe._('Paid Amount')"
               background-color="white"
@@ -29,6 +30,7 @@
           <v-col cols="5">
             <v-text-field
               outlined
+              rounded
               color="primary"
               :label="frappe._(diff_lable)"
               background-color="white"
@@ -80,6 +82,7 @@
             <v-col cols="6" v-if="!is_mpesa_c2b_payment(payment)">
               <v-text-field
                 dense
+                rounded
                 outlined
                 color="primary"
                 :label="frappe._(payment.mode_of_payment)"
@@ -105,6 +108,7 @@
             >
               <v-btn
                 block
+                rounded
                 class=""
                 color="primary"
                 dark
@@ -134,6 +138,7 @@
             >
               <v-btn
                 block
+                rounded
                 class=""
                 color="success"
                 dark
@@ -157,6 +162,7 @@
           <v-col cols="7">
             <v-text-field
               dense
+              rounded
               outlined
               color="primary"
               :label="frappe._('Redeem Loyalty Points')"
@@ -170,6 +176,7 @@
           <v-col cols="5">
             <v-text-field
               dense
+              rounded
               outlined
               color="primary"
               :label="frappe._('You can redeem upto')"
@@ -194,6 +201,7 @@
           <v-col cols="7">
             <v-text-field
               dense
+              rounded
               outlined
               disabled
               color="primary"
@@ -208,6 +216,7 @@
           <v-col cols="5">
             <v-text-field
               dense
+              rounded
               outlined
               color="primary"
               :label="frappe._('You can redeem credit upto')"
@@ -225,6 +234,7 @@
           <v-col cols="6">
             <v-text-field
               dense
+              rounded
               outlined
               color="primary"
               :label="frappe._('Net Total')"
@@ -238,6 +248,7 @@
           <v-col cols="6">
             <v-text-field
               dense
+              rounded
               outlined
               color="primary"
               :label="frappe._('Tax and Charges')"
@@ -251,6 +262,7 @@
           <v-col cols="6">
             <v-text-field
               dense
+              rounded
               outlined
               color="primary"
               :label="frappe._('Total Amount')"
@@ -265,6 +277,7 @@
             <v-text-field
               dense
               outlined
+              rounded
               color="primary"
               :label="frappe._('Discount Amount')"
               background-color="white"
@@ -277,6 +290,7 @@
           <v-col cols="6">
             <v-text-field
               dense
+              rounded
               outlined
               color="primary"
               :label="frappe._('Grand Total')"
@@ -305,6 +319,7 @@
                   readonly
                   outlined
                   dense
+                  rounded
                   background-color="white"
                   clearable
                   color="primary"
@@ -327,6 +342,7 @@
           <v-col cols="12" v-if="invoice_doc.posa_delivery_date">
             <v-autocomplete
               dense
+              rounded
               clearable
               auto-select-first
               outlined
@@ -422,6 +438,7 @@
                     v-model="invoice_doc.po_date"
                     :label="frappe._('Purchase Order Date')"
                     readonly
+                    rounded
                     outlined
                     dense
                     hide-details
@@ -495,6 +512,7 @@
                   readonly
                   outlined
                   dense
+                  rounded
                   hide-details
                   v-bind="attrs"
                   v-on="on"
@@ -540,6 +558,7 @@
             <v-col cols="4">
               <v-text-field
                 dense
+                rounded
                 outlined
                 color="primary"
                 :label="frappe._('Available Credit')"
@@ -553,6 +572,7 @@
             <v-col cols="4">
               <v-text-field
                 dense
+                rounded
                 outlined
                 color="primary"
                 :label="frappe._('Redeem Credit')"
@@ -570,6 +590,7 @@
           <v-col cols="12">
             <v-autocomplete
               dense
+              rounded
               clearable
               auto-select-first
               outlined
@@ -610,6 +631,7 @@
         <v-col cols="12">
           <v-btn
             block
+            rounded
             class="pa-1"
             large
             color="error"
@@ -621,6 +643,7 @@
         <v-col cols="12">
           <v-btn
             block
+            rounded
             class="mt-2"
             large
             color="success"
@@ -645,6 +668,7 @@
               <v-text-field
                 dense
                 outlined
+                rounded
                 color="primary"
                 :label="frappe._('Mobile Number')"
                 background-color="white"

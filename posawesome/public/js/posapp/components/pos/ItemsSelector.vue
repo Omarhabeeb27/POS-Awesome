@@ -15,6 +15,7 @@
         <v-col class="pb-0 mb-2">
           <v-text-field
             dense
+            rounded
             clearable
             autofocus
             outlined
@@ -32,6 +33,7 @@
         <v-col cols="3" class="pb-0 mb-2" v-if="pos_profile.posa_input_qty">
           <v-text-field
             dense
+            rounded
             outlined
             color="primary"
             :label="frappe._('QTY')"
@@ -123,6 +125,8 @@
             :items="items_group"
             :label="frappe._('Items Group')"
             dense
+            rounded
+            color="primary"
             outlined
             hide-details
             v-model="item_group"
@@ -276,7 +280,7 @@ export default {
         },
         { text: __('Rate'), value: 'rate', align: 'start' },
         { text: __('Available QTY'), value: 'actual_qty', align: 'start' },
-        { text: __('UOM'), value: 'stock_uom', align: 'start' },
+        
       ];
       if (!this.pos_profile.posa_display_item_code) {
         items_headers.splice(1, 1);

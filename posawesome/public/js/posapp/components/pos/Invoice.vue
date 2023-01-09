@@ -222,6 +222,7 @@
                   <v-col cols="4">
                     <v-text-field
                       dense
+                      rounded
                       outlined
                       color="primary"
                       :label="frappe._('Item Code')"
@@ -234,6 +235,7 @@
                   <v-col cols="4">
                     <v-text-field
                       dense
+                      rounded
                       outlined
                       color="primary"
                       :label="frappe._('QTY')"
@@ -245,10 +247,11 @@
                       :disabled="!!item.posa_is_offer || !!item.posa_is_replace"
                     ></v-text-field>
                   </v-col>
-                  <!--
+                  
                   <v-col cols="4">
                     <v-select
                       dense
+                      rounded
                       background-color="white"
                       :label="frappe._('UOM')"
                       v-model="item.uom"
@@ -266,11 +269,12 @@
                     >
                     </v-select>
                   </v-col>
-                  -->
+                  
 
                   <v-col cols="4">
                     <v-text-field
                       dense
+                      rounded
                       outlined
                       color="primary"
                       :label="frappe._('Rate')"
@@ -295,6 +299,7 @@
                   <v-col cols="4">
                     <v-text-field
                       dense
+                      rounded
                       outlined
                       color="primary"
                       :label="frappe._('Discount Percentage')"
@@ -318,6 +323,7 @@
                   <v-col cols="4">
                     <v-text-field
                       dense
+                      rounded
                       outlined
                       color="primary"
                       :label="frappe._('Discount Amount')"
@@ -342,6 +348,7 @@
                   <v-col cols="4">
                     <v-text-field
                       dense
+                      rounded
                       outlined
                       color="primary"
                       :label="frappe._('Price list Rate')"
@@ -381,6 +388,7 @@
                   <v-col cols="4">
                     <v-text-field
                       dense
+                      rounded
                       outlined
                       color="primary"
                       :label="frappe._('Stock QTY')"
@@ -391,10 +399,11 @@
                       disabled
                     ></v-text-field>
                   </v-col>
-                  <!--
+                  
                   <v-col cols="4">
                     <v-text-field
                       dense
+                      rounded
                       outlined
                       color="primary"
                       :label="frappe._('Stock UOM')"
@@ -404,10 +413,11 @@
                       disabled
                     ></v-text-field>
                   </v-col>
-                -->
+                
                   <v-col align="center" cols="4" v-if="item.posa_offer_applied">
                     <v-checkbox
                       dense
+                      rounded
                       :label="frappe._('Offer Applied')"
                       v-model="item.posa_offer_applied"
                       readonly
@@ -421,6 +431,7 @@
                   >
                     <v-text-field
                       dense
+                      rounded
                       outlined
                       color="primary"
                       :label="frappe._('Serial No QTY')"
@@ -441,6 +452,7 @@
                       item-text="serial_no"
                       outlined
                       dense
+                      rounded
                       chips
                       color="primary"
                       small-chips
@@ -490,6 +502,7 @@
                       item-text="batch_no"
                       outlined
                       dense
+                      rounded
                       color="primary"
                       :label="frappe._('Batch No')"
                       @change="set_batch_qty(item, $event)"
