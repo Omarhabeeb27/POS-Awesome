@@ -1,7 +1,7 @@
 <template>
   <v-row justify="center">
     <v-dialog v-model="invoicesDialog" max-width="800px" min-width="800px">
-      <v-card>
+      <v-card shaped>
         <v-card-title>
           <span class="headline primary--text">{{
             __('Select Return Invoice')
@@ -16,7 +16,7 @@
               hide-details
               v-model="invoice_name"
               dense
-              rounded
+              
               clearable
               class="mx-4"
             ></v-text-field>

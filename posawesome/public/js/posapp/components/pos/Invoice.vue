@@ -1,7 +1,7 @@
 <template>
   <div>
-    <v-dialog v-model="cancel_dialog" max-width="180">
-      <v-card>
+    <v-dialog v-model="cancel_dialog" max-width="350">
+      <v-card shaped>
         <v-card-title class="text-h5">
           <span class="headline primary--text">{{
             __('Cancel Current Invoice ?')

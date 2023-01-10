@@ -1,7 +1,7 @@
 <template>
   <v-row justify="center">
     <v-dialog v-model="customerDialog" max-width="600px">
-      <v-card>
+      <v-card shaped>
         <v-card-title>
           <span class="headline primary--text">{{ __('Customer Info') }}</span>
         </v-card-title>
@@ -11,7 +11,7 @@
               <v-col cols="12">
                 <v-text-field
                   dense
-                  rounded
+                  
                   color="primary"
                   :label="frappe._('Customer Name')"
                   background-color="white"
@@ -23,7 +23,7 @@
               <v-col cols="6">
                 <v-text-field
                   dense
-                  rounded
+                  
                   color="primary"
                   :label="frappe._('Email')"
                   background-color="white"
@@ -35,7 +35,7 @@
               <v-col cols="6">
                 <v-text-field
                   dense
-                  rounded
+                  
                   color="primary"
                   :label="frappe._('Mobile No')"
                   background-color="white"
@@ -49,7 +49,7 @@
                   v-model="customer_info.loyalty_program"
                   :label="frappe._('Loyalty Program')"
                   dense
-                  rounded
+                  
                   readonly
                   hide-details
                 ></v-text-field>
@@ -59,7 +59,7 @@
                   v-model="customer_info.loyalty_points"
                   :label="frappe._('Loyalty Points')"
                   dense
-                  rounded
+                  
                   readonly
                   hide-details
                 ></v-text-field>
