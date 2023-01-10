@@ -1,6 +1,6 @@
 <template>
   <nav>
-    <v-app-bar app height="40" class="elevation-2">
+    <v-app-bar app height="40" width="auto" class="elevation-4">
       <v-app-bar-nav-icon
         @click.stop="drawer = !drawer"
         class="grey--text"
@@ -33,7 +33,7 @@
             >
           </template>
           <v-card class="mx-auto" max-width="300" tile>
-            <v-list dense>
+            <v-list dense rounded>
               <v-list-item-group v-model="menu_item" color="primary">
                 <v-list-item
                   @click="close_shift_dialog"

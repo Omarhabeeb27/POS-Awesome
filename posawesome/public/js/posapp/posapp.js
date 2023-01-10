@@ -25,7 +25,7 @@ frappe.PosApp.posapp = class {
                                 accent: '#048AFF',
                                 success: '#4CBB17',
                                 info: '#048AFF',
-                                warning: '#FF9800',
+                                warning: '#00BAD4',
                                 error: '#DC143C',
                                 orange: '#E65100',
                                 golden: '#048AFF',

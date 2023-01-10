@@ -3,6 +3,7 @@
     <v-card
       class="selection mx-auto grey lighten-5"
       style="max-height: 75vh; height: 75vh"
+      elevation="6"
     >
       <v-progress-linear
         :active="loading"
