@@ -41,6 +41,7 @@
         <v-col v-if="pos_profile.posa_allow_sales_order" cols="3" class="pb-2">
           <v-select
             dense
+            rounded
             hide-details
             outlined
             color="primary"
@@ -61,6 +62,7 @@
         <v-col cols="8" class="pb-0 mb-0 pr-0 pt-0">
           <v-autocomplete
             dense
+            rounded
             clearable
             auto-select-first
             outlined
@@ -95,6 +97,7 @@
         <v-col cols="4" class="pb-0 mb-0 pt-0">
           <v-text-field
             dense
+            rounded
             outlined
             color="primary"
             :label="frappe._('Delivery Charges Rate')"
@@ -130,6 +133,7 @@
                 readonly
                 outlined
                 dense
+                rounded
                 background-color="white"
                 clearable
                 color="primary"
@@ -363,6 +367,7 @@
                   <v-col cols="4">
                     <v-text-field
                       dense
+                      rounded
                       outlined
                       color="primary"
                       :label="frappe._('Available QTY')"
@@ -377,6 +382,7 @@
                     <v-text-field
                       dense
                       outlined
+                      rounded
                       color="primary"
                       :label="frappe._('Group')"
                       background-color="white"
@@ -467,6 +473,7 @@
                   >
                     <v-text-field
                       dense
+                      rounded
                       outlined
                       color="primary"
                       :label="frappe._('Batch No Available QTY')"
@@ -483,6 +490,7 @@
                   >
                     <v-text-field
                       dense
+                      rounded
                       outlined
                       color="primary"
                       :label="frappe._('Batch No Expiry Date')"
@@ -545,6 +553,7 @@
                           readonly
                           outlined
                           dense
+                          rounded
                           clearable
                           color="primary"
                           hide-details
@@ -592,6 +601,7 @@
                       class="pa-0"
                       outlined
                       dense
+                      rounded
                       clearable
                       color="primary"
                       auto-grow

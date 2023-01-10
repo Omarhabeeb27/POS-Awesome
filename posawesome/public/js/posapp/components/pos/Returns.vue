@@ -16,6 +16,7 @@
               hide-details
               v-model="invoice_name"
               dense
+              rounded
               clearable
               class="mx-4"
             ></v-text-field>

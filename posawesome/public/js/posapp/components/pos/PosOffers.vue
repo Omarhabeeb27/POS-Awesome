@@ -50,6 +50,7 @@
                       item-text="item_code"
                       outlined
                       dense
+                      rounded
                       color="primary"
                       :label="frappe._('Give Item')"
                       :disabled="

@@ -53,6 +53,7 @@
               :prefix="invoice_doc.currency"
               :rules="paid_change_rules"
               dense
+              rounded
               type="number"
             ></v-text-field>
           </v-col>
@@ -68,6 +69,7 @@
               disabled
               :prefix="invoice_doc.currency"
               dense
+              rounded
             ></v-text-field>
           </v-col>
         </v-row>
@@ -399,6 +401,7 @@
               class="pa-0"
               outlined
               dense
+              rounded
               background-color="white"
               clearable
               color="primary"
@@ -420,6 +423,7 @@
                 :label="frappe._('Purchase Order')"
                 outlined
                 dense
+                rounded
                 background-color="white"
                 clearable
                 color="primary"

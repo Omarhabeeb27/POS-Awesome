@@ -23,6 +23,7 @@
               <v-col cols="6">
                 <v-text-field
                   dense
+                  rounded
                   color="primary"
                   :label="frappe._('Tax ID')"
                   background-color="white"
@@ -33,6 +34,7 @@
               <v-col cols="6">
                 <v-text-field
                   dense
+                  rounded
                   color="primary"
                   :label="frappe._('Mobile No')"
                   background-color="white"
@@ -43,6 +45,7 @@
               <v-col cols="6">
                 <v-text-field
                   dense
+                  rounded
                   color="primary"
                   :label="frappe._('Email Id')"
                   background-color="white"
@@ -53,6 +56,7 @@
               <v-col cols="6">
                 <v-text-field
                   dense
+                  rounded
                   color="primary"
                   :label="frappe._('Referral Code')"
                   background-color="white"
@@ -74,6 +78,7 @@
                       :label="frappe._('Birthday')"
                       readonly
                       dense
+                      rounded
                       clearable
                       hide-details
                       v-bind="attrs"
@@ -96,6 +101,7 @@
                 <v-autocomplete
                   clearable
                   dense
+                  rounded
                   auto-select-first
                   color="primary"
                   :label="frappe._('Customer Group')"
@@ -111,6 +117,7 @@
                 <v-autocomplete
                   clearable
                   dense
+                  rounded
                   auto-select-first
                   color="primary"
                   :label="frappe._('Territory')"

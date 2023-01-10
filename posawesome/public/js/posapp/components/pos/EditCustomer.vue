@@ -49,6 +49,7 @@
                   v-model="customer_info.loyalty_program"
                   :label="frappe._('Loyalty Program')"
                   dense
+                  rounded
                   readonly
                   hide-details
                 ></v-text-field>

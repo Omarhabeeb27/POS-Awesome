@@ -14,6 +14,7 @@
               hide-details
               v-model="full_name"
               dense
+              rounded
               clearable
               class="mx-4"
             ></v-text-field>
@@ -24,6 +25,7 @@
               hide-details
               v-model="mobile_no"
               dense
+              rounded
               clearable
               class="mx-4"
             ></v-text-field>
