@@ -78,7 +78,7 @@
                       :label="frappe._('Birthday')"
                       readonly
                       dense
-                      rounded
+                      
                       clearable
                       hide-details
                       v-bind="attrs"
@@ -101,7 +101,7 @@
                 <v-autocomplete
                   clearable
                   dense
-                  rounded
+                  
                   auto-select-first
                   color="primary"
                   :label="frappe._('Customer Group')"
@@ -117,7 +117,7 @@
                 <v-autocomplete
                   clearable
                   dense
-                  rounded
+                  
                   auto-select-first
                   color="primary"
                   :label="frappe._('Territory')"
