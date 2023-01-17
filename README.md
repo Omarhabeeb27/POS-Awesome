@@ -118,6 +118,9 @@ Will using for this the same guidelines from Erpnext
 GNU/General Public License (see [license.txt](https://github.com/yrestom/POS-Awesome/blob/master/license.txt))
 
 The POS Awesome code is licensed as GNU General Public License (v3)
+
+---
+
 <div align="center">
     <img src="https://i.postimg.cc/FHhtDyz1/Screenshot-2023-01-17-at-1-07-34-PM.png' border='0' alt='Screenshot-2023-01-17-at-1-07-34-PM" height="500">
     <h2>POS AWESOME UI</h2>
