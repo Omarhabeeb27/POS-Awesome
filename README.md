@@ -119,7 +119,7 @@ GNU/General Public License (see [license.txt](https://github.com/yrestom/POS-Awe
 
 The POS Awesome code is licensed as GNU General Public License (v3)
 <div align="center">
-    <img src="https://postimg.cc/TpNHPWrX" height="128">
+    <img src="https://i.postimg.cc/TpNHPWrX/Screenshot-2023-01-17-at-1-07-34-PM.png' border='0' alt='Screenshot-2023-01-17-at-1-07-34-PM" height="128">
     <h2>POS AWESOME UI</h2>
 </div>
 
