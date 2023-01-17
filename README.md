@@ -121,8 +121,13 @@ The POS Awesome code is licensed as GNU General Public License (v3)
 
 ---
 
+### POS AWESOME UI
 <div align="center">
     <img src="https://i.postimg.cc/FHhtDyz1/Screenshot-2023-01-17-at-1-07-34-PM.png' border='0' alt='Screenshot-2023-01-17-at-1-07-34-PM" height="500">
-    <h2>POS AWESOME UI</h2>
+   
+</div>
+<div align="center">
+    <img src="https://i.postimg.cc/RCfVYTST/Screenshot-2023-01-17-at-1-26-07-PM.png' border='0' alt='Screenshot-2023-01-17-at-1-26-07-PM" height="500">
+   
 </div>
 
