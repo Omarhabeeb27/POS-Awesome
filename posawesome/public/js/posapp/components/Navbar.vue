@@ -6,7 +6,7 @@
         class="grey--text"
       ></v-app-bar-nav-icon>
       <v-img
-        src="posawesome/public/js/posapp/components/pos/robot.png"
+        src="posawesome/public/js/posapp/components/pos/sillage-ditribution.png"
         alt="POS Awesome"
         max-width="32"
         class="mr-2"
@@ -17,8 +17,8 @@
         style="cursor: pointer"
         class="text-uppercase primary--text"
       >
-        <span color ="primary">Appliances</span>
-        <span color ="black">NEXT</span>
+        <span color ="primary">Saudi</span>
+        <span color ="black">Sillage</span>
       </v-toolbar-title>
 
       <v-spacer></v-spacer>
