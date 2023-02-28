@@ -6,7 +6,7 @@
         class="grey--text"
       ></v-app-bar-nav-icon>
       <v-img
-        src="posawesome/public/js/posapp/components/pos/sillage-ditribution-2.png"
+        src="/Users/mohseenhabib/POS-Awesome-1/posawesome/public/js/posapp/components/pos/sillage-ditribution-2.png"
         alt="POS Awesome"
         max-width="32"
         class="mr-2"
