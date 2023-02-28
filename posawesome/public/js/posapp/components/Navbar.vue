@@ -6,7 +6,7 @@
         class="grey--text"
       ></v-app-bar-nav-icon>
       <v-img
-        src="/Users/mohseenhabib/POS-Awesome-1/posawesome/public/js/posapp/components/pos/sillage-ditribution-2.png"
+        src="https://saudisillage.com/wp-content/uploads/2021/03/sillage-ditribution.png"
         alt="POS Awesome"
         max-width="32"
         class="mr-2"
