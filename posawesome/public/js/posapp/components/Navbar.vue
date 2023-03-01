@@ -6,9 +6,9 @@
         class="grey--text"
       ></v-app-bar-nav-icon>
       <v-img
-        src="/assets/posawesome/js/posapp/components/pos/sillage-ditribution.png"
+        src="/assets/posawesome/js/posapp/components/pos/sillage-ditribution-1.png"
         alt="POS Awesome"
-        max-width="32"
+        max-width="50"
         class="mr-2"
         color="primary"
       ></v-img>
