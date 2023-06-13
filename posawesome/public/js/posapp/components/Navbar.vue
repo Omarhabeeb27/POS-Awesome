@@ -6,7 +6,7 @@
         class="grey--text"
       ></v-app-bar-nav-icon>
       <v-img
-        src="/assets/posawesome/js/posapp/components/pos/sillage-ditribution-1.png"
+        src="/assets/posawesome/js/posapp/components/pos/Arabica.png"
         alt="POS Awesome"
         max-width="50"
         class="mr-2"
@@ -17,8 +17,8 @@
         style="cursor: pointer"
         class="text-uppercase primary--text"
       >
-        <span color ="primary">Saudi</span>
-        <span color ="black">Sillage</span>
+        <span color ="primary"></span>
+        <span color ="black">Coffee</span>
       </v-toolbar-title>
 
       <v-spacer></v-spacer>
