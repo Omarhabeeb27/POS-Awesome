@@ -8,7 +8,7 @@
       <v-img
         src="/assets/posawesome/js/posapp/components/pos/Arabica.png"
         alt="POS Awesome"
-        max-width="50"
+        max-width="100"
         class="mr-2"
         color="primary"
       ></v-img>
